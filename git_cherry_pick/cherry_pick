@@ -1,0 +1,6 @@
+"git cherry-pick" means pick one commit from another branch and add to current branch. don't merge or rebase.
+    git log to get the commit number of the branch you want to pick
+    and git checkout to current branch e.g. feature
+    git cherry-pick <commit number>
+    git push
+
