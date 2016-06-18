@@ -12,4 +12,5 @@
          git reset --soft abcedf123gh  -> just undo the commit
          git reset        abcedf123gh  -> undo commit and add
          git reset --hard abcedf123gh  -> undo commit and add, finally remove the changes
-    
+
+"git reset <file_name>" can unstage the added file.
