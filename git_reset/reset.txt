@@ -1,0 +1,15 @@
+"git reflog" can check all the events, like commits, undo commits, etc.
+    inside reflog, there are events number e.g. HEAD@{5}
+    if you want to go back to the state of HEAD@{5}, use git reset <option> HEAD@{5}
+    if HEAD@{4} is a commit. 
+        git reset --soft HEAD@{5}   ->  just undo the commit
+        git reset        HEAD@{5}   ->  undo both commit and add
+        git reset --hard HEAD@{5}   ->  undo commit and add, finally remove the changes
+
+"git log" can check the commits history, cannot check undo commits.
+     with commits number inside the log, say abedef123gh
+     if you want to go back to abcdef123gh
+         git reset --soft abcedf123gh  -> just undo the commit
+         git reset        abcedf123gh  -> undo commit and add
+         git reset --hard abcedf123gh  -> undo commit and add, finally remove the changes
+    
