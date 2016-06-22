@@ -1,0 +1,2 @@
+"git rm" removes files before commit and push, which correponds to "git add" that adds files. 
+after "git rm", also have to do "git commit" and "git push" so that remote repo can be updated.
